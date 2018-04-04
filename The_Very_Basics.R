@@ -70,6 +70,7 @@ die<-1:6
 dice<- sample(x=die,size = 2, replace = TRUE)
 sum(dice)
 }
+
 roll()
 roll# if you type the name of the function without parenthesis
 # r will show the code that makes the function. 
@@ -90,4 +91,5 @@ roll2<- function(bones= 1:6) {
 }
 roll2()
 roll2(bones = 1:8)
+
 
